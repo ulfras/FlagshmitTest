@@ -1,0 +1,16 @@
+PODS:
+  - FlagsmithClient (1.2.1)
+
+DEPENDENCIES:
+  - FlagsmithClient (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - FlagsmithClient
+
+SPEC CHECKSUMS:
+  FlagsmithClient: 9f62d8d074c7d14602fee6ccdea8fbe9281d20a0
+
+PODFILE CHECKSUM: 294bdd859952a8946966af04d4a79ca3ef6612b7
+
+COCOAPODS: 1.15.2

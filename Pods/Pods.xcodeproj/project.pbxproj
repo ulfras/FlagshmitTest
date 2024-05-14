@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A9F0F955223C611623552B3EA4BF88 /* FlagsmithClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 129044A8E2946CFC689F74D93A81F2B9 /* FlagsmithClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5077BC05E32C03F0B9CC555E81B921 /* TypedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C516ACCB420194F90F5277301555E /* TypedValue.swift */; };
+		44559B47904E3FC90DA01109D2B86199 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75010722235C36128BE9DBADC8216E89 /* APIManager.swift */; };
+		598A1E62B8319FF76212319DCF6D941C /* Flagsmith+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A5FBB9C3E43252D24D5A82421C6D5 /* Flagsmith+Concurrency.swift */; };
+		665B827AF8EB62E79776EF3B994F3F64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		693B28EEBE3C265864FBAD12B694A25A /* Trait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5A98668955B2450374DBD3FA987E0 /* Trait.swift */; };
+		6F8F44DEA2DD1EF9B7722144AE2FC6F7 /* Pods-FlagsmithTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F37EDF7A54D8F783769327EF5245D /* Pods-FlagsmithTest-dummy.m */; };
+		8D1572F377214810A89ADC8803DAA756 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714105894BE2F071B7DA73998027C0A4 /* Flag.swift */; };
+		A0AB7E8270D1D0C2B8FAC3978C3E673C /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56097A761179D97AFF7E5EA8340AD3C8 /* Feature.swift */; };
+		A91AE8A2FE0A7757ADFA055087389DBB /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC855DE2A840CC75904E5556FE10916A /* Identity.swift */; };
+		AD6A14DF7F87E8670BC087180E9BAD62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3374E1D16F2D7CC69C56F58B48AAD93 /* FlagsmithAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F524A86FD7D85DBB4137FF358A822D /* FlagsmithAnalytics.swift */; };
+		D91335013DB9C4B6F8D12F520F35480D /* FlagsmithClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5736A8BFD59117594B2F20AA5A0A403C /* FlagsmithClient-dummy.m */; };
+		DBBEDBD1A6253C44C9C03C50532E612A /* UnknownTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBEE6511A34C87F52A7B2868794C793 /* UnknownTypeValue.swift */; };
+		E1985E6546BB3F066EAD744869619C41 /* Pods-FlagsmithTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 570FC864EA7747069F6D7D8CE99FD514 /* Pods-FlagsmithTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E92AE953E299104A0F6CB27BE01102D4 /* Flagsmith.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E98D970845E1D4ED9AC868DCED5174 /* Flagsmith.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A68C9699641D306D1D705EF29BC028C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11AAFF8883A32F4C9C2E17C1B1AE0614;
+			remoteInfo = FlagsmithClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlagsmithTest"; path = Pods_FlagsmithTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		129044A8E2946CFC689F74D93A81F2B9 /* FlagsmithClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-umbrella.h"; sourceTree = "<group>"; };
+		34F524A86FD7D85DBB4137FF358A822D /* FlagsmithAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagsmithAnalytics.swift; path = FlagsmithClient/Classes/FlagsmithAnalytics.swift; sourceTree = "<group>"; };
+		371F37EDF7A54D8F783769327EF5245D /* Pods-FlagsmithTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlagsmithTest-dummy.m"; sourceTree = "<group>"; };
+		4C3AC3C9026F3710FF3C9774E4EDA661 /* Pods-FlagsmithTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlagsmithTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54206505AE1DAB3B9753CE44E9818C5D /* FlagsmithClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.release.xcconfig; sourceTree = "<group>"; };
+		56097A761179D97AFF7E5EA8340AD3C8 /* Feature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = FlagsmithClient/Classes/Feature.swift; sourceTree = "<group>"; };
+		570FC864EA7747069F6D7D8CE99FD514 /* Pods-FlagsmithTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlagsmithTest-umbrella.h"; sourceTree = "<group>"; };
+		5736A8BFD59117594B2F20AA5A0A403C /* FlagsmithClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagsmithClient-dummy.m"; sourceTree = "<group>"; };
+		5C377B3B6A5682C828A1E1C9A707C7BB /* FlagsmithClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.debug.xcconfig; sourceTree = "<group>"; };
+		68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagsmithClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714105894BE2F071B7DA73998027C0A4 /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = FlagsmithClient/Classes/Flag.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75010722235C36128BE9DBADC8216E89 /* APIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = FlagsmithClient/Classes/APIManager.swift; sourceTree = "<group>"; };
+		8BBEE6511A34C87F52A7B2868794C793 /* UnknownTypeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownTypeValue.swift; path = FlagsmithClient/Classes/UnknownTypeValue.swift; sourceTree = "<group>"; };
+		90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlagsmithTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD5A98668955B2450374DBD3FA987E0 /* Trait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trait.swift; path = FlagsmithClient/Classes/Trait.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3D265BEAADE7CCCA80B6FF9040E8375 /* FlagsmithClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagsmithClient.modulemap; sourceTree = "<group>"; };
+		A3E98D970845E1D4ED9AC868DCED5174 /* Flagsmith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagsmith.swift; path = FlagsmithClient/Classes/Flagsmith.swift; sourceTree = "<group>"; };
+		A89E897245C4A4A7DE8A4DE921973904 /* Pods-FlagsmithTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlagsmithTest-Info.plist"; sourceTree = "<group>"; };
+		AC5A5FBB9C3E43252D24D5A82421C6D5 /* Flagsmith+Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flagsmith+Concurrency.swift"; path = "FlagsmithClient/Classes/Flagsmith+Concurrency.swift"; sourceTree = "<group>"; };
+		AE5A47F94246A8274713E26A5EB9E030 /* Pods-FlagsmithTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlagsmithTest-frameworks.sh"; sourceTree = "<group>"; };
+		BF9166F6DD14DE3FDCA89D20BAEFFD5F /* Pods-FlagsmithTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlagsmithTest.release.xcconfig"; sourceTree = "<group>"; };
+		C24BCC81B2D4A9C041C1287BFDF7E504 /* FlagsmithClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagsmithClient-Info.plist"; sourceTree = "<group>"; };
+		C7617365231126B7F12F1FBAAB41FC37 /* Pods-FlagsmithTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlagsmithTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC855DE2A840CC75904E5556FE10916A /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = FlagsmithClient/Classes/Identity.swift; sourceTree = "<group>"; };
+		D91C516ACCB420194F90F5277301555E /* TypedValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypedValue.swift; path = FlagsmithClient/Classes/TypedValue.swift; sourceTree = "<group>"; };
+		D98880538C3D68B3940EE38CB97A7D4D /* Pods-FlagsmithTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlagsmithTest.modulemap"; sourceTree = "<group>"; };
+		FC774A09A6438007F97FD597FB89A90E /* FlagsmithClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4BF84680C8C808173E961CF2677C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665B827AF8EB62E79776EF3B994F3F64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD329863523A85D9684BDF2BF19B95A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6A14DF7F87E8670BC087180E9BAD62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9DB216372A6594B4A6E7F28BB642A748 /* Pods-FlagsmithTest */ = {
+			isa = PBXGroup;
+			children = (
+				D98880538C3D68B3940EE38CB97A7D4D /* Pods-FlagsmithTest.modulemap */,
+				4C3AC3C9026F3710FF3C9774E4EDA661 /* Pods-FlagsmithTest-acknowledgements.markdown */,
+				C7617365231126B7F12F1FBAAB41FC37 /* Pods-FlagsmithTest-acknowledgements.plist */,
+				371F37EDF7A54D8F783769327EF5245D /* Pods-FlagsmithTest-dummy.m */,
+				AE5A47F94246A8274713E26A5EB9E030 /* Pods-FlagsmithTest-frameworks.sh */,
+				A89E897245C4A4A7DE8A4DE921973904 /* Pods-FlagsmithTest-Info.plist */,
+				570FC864EA7747069F6D7D8CE99FD514 /* Pods-FlagsmithTest-umbrella.h */,
+				90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */,
+				BF9166F6DD14DE3FDCA89D20BAEFFD5F /* Pods-FlagsmithTest.release.xcconfig */,
+			);
+			name = "Pods-FlagsmithTest";
+			path = "Target Support Files/Pods-FlagsmithTest";
+			sourceTree = "<group>";
+		};
+		CACB504E7B64C3B2632DECF67A205B49 /* FlagsmithClient */ = {
+			isa = PBXGroup;
+			children = (
+				75010722235C36128BE9DBADC8216E89 /* APIManager.swift */,
+				56097A761179D97AFF7E5EA8340AD3C8 /* Feature.swift */,
+				714105894BE2F071B7DA73998027C0A4 /* Flag.swift */,
+				A3E98D970845E1D4ED9AC868DCED5174 /* Flagsmith.swift */,
+				AC5A5FBB9C3E43252D24D5A82421C6D5 /* Flagsmith+Concurrency.swift */,
+				34F524A86FD7D85DBB4137FF358A822D /* FlagsmithAnalytics.swift */,
+				CC855DE2A840CC75904E5556FE10916A /* Identity.swift */,
+				9BD5A98668955B2450374DBD3FA987E0 /* Trait.swift */,
+				D91C516ACCB420194F90F5277301555E /* TypedValue.swift */,
+				8BBEE6511A34C87F52A7B2868794C793 /* UnknownTypeValue.swift */,
+				E239FFF60F074F8872CF8C70C30BAF82 /* Support Files */,
+			);
+			path = FlagsmithClient;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF1A8AD6BDD5B254402A54DE41010F86 /* Pods */,
+				E5F733890E5D67BFCD1DCA8ACA2A441E /* Products */,
+				D40ECD8F8EFB326C4B45D06FAA144455 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40ECD8F8EFB326C4B45D06FAA144455 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB216372A6594B4A6E7F28BB642A748 /* Pods-FlagsmithTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF1A8AD6BDD5B254402A54DE41010F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CACB504E7B64C3B2632DECF67A205B49 /* FlagsmithClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E239FFF60F074F8872CF8C70C30BAF82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D265BEAADE7CCCA80B6FF9040E8375 /* FlagsmithClient.modulemap */,
+				5736A8BFD59117594B2F20AA5A0A403C /* FlagsmithClient-dummy.m */,
+				C24BCC81B2D4A9C041C1287BFDF7E504 /* FlagsmithClient-Info.plist */,
+				FC774A09A6438007F97FD597FB89A90E /* FlagsmithClient-prefix.pch */,
+				129044A8E2946CFC689F74D93A81F2B9 /* FlagsmithClient-umbrella.h */,
+				5C377B3B6A5682C828A1E1C9A707C7BB /* FlagsmithClient.debug.xcconfig */,
+				54206505AE1DAB3B9753CE44E9818C5D /* FlagsmithClient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlagsmithClient";
+			sourceTree = "<group>";
+		};
+		E5F733890E5D67BFCD1DCA8ACA2A441E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */,
+				012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADFF4E35F6A62F900D04D0287AFD1BBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1985E6546BB3F066EAD744869619C41 /* Pods-FlagsmithTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF511377609631543EEAC732198CBAD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A9F0F955223C611623552B3EA4BF88 /* FlagsmithClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11AAFF8883A32F4C9C2E17C1B1AE0614 /* FlagsmithClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9E7B157BC7CB4A9C72354772D86DF8 /* Build configuration list for PBXNativeTarget "FlagsmithClient" */;
+			buildPhases = (
+				BF511377609631543EEAC732198CBAD4 /* Headers */,
+				C0CCC2BDDBA8C85B4E1E2C293F46C25D /* Sources */,
+				FD329863523A85D9684BDF2BF19B95A5 /* Frameworks */,
+				C91BA5019DA91A49CD24A58911E75EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagsmithClient;
+			productName = FlagsmithClient;
+			productReference = 68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D99879F9C33406A741F782DFA2438B9 /* Pods-FlagsmithTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86C800AAC2D1A8F18429C0A07EA7516 /* Build configuration list for PBXNativeTarget "Pods-FlagsmithTest" */;
+			buildPhases = (
+				ADFF4E35F6A62F900D04D0287AFD1BBF /* Headers */,
+				0F6DE9875B38B5B8572FE20EEC285B70 /* Sources */,
+				EF4BF84680C8C808173E961CF2677C43 /* Frameworks */,
+				E002CAA60A7E5668100ADBD0533722E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF7640235FF63CECC4882865ED37D1D /* PBXTargetDependency */,
+			);
+			name = "Pods-FlagsmithTest";
+			productName = Pods_FlagsmithTest;
+			productReference = 012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E5F733890E5D67BFCD1DCA8ACA2A441E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11AAFF8883A32F4C9C2E17C1B1AE0614 /* FlagsmithClient */,
+				9D99879F9C33406A741F782DFA2438B9 /* Pods-FlagsmithTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91BA5019DA91A49CD24A58911E75EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E002CAA60A7E5668100ADBD0533722E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6DE9875B38B5B8572FE20EEC285B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8F44DEA2DD1EF9B7722144AE2FC6F7 /* Pods-FlagsmithTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CCC2BDDBA8C85B4E1E2C293F46C25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44559B47904E3FC90DA01109D2B86199 /* APIManager.swift in Sources */,
+				A0AB7E8270D1D0C2B8FAC3978C3E673C /* Feature.swift in Sources */,
+				8D1572F377214810A89ADC8803DAA756 /* Flag.swift in Sources */,
+				E92AE953E299104A0F6CB27BE01102D4 /* Flagsmith.swift in Sources */,
+				598A1E62B8319FF76212319DCF6D941C /* Flagsmith+Concurrency.swift in Sources */,
+				C3374E1D16F2D7CC69C56F58B48AAD93 /* FlagsmithAnalytics.swift in Sources */,
+				D91335013DB9C4B6F8D12F520F35480D /* FlagsmithClient-dummy.m in Sources */,
+				A91AE8A2FE0A7757ADFA055087389DBB /* Identity.swift in Sources */,
+				693B28EEBE3C265864FBAD12B694A25A /* Trait.swift in Sources */,
+				0B5077BC05E32C03F0B9CC555E81B921 /* TypedValue.swift in Sources */,
+				DBBEDBD1A6253C44C9C03C50532E612A /* UnknownTypeValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF7640235FF63CECC4882865ED37D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlagsmithClient;
+			target = 11AAFF8883A32F4C9C2E17C1B1AE0614 /* FlagsmithClient */;
+			targetProxy = A68C9699641D306D1D705EF29BC028C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		050BDE1769200A4842BC36879CD08EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9166F6DD14DE3FDCA89D20BAEFFD5F /* Pods-FlagsmithTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B3A6F0112A33F566FF03C269177AF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C377B3B6A5682C828A1E1C9A707C7BB /* FlagsmithClient.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlagsmithClient/FlagsmithClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlagsmithClient/FlagsmithClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlagsmithClient/FlagsmithClient.modulemap";
+				PRODUCT_MODULE_NAME = FlagsmithClient;
+				PRODUCT_NAME = FlagsmithClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F2C5E95ABD89A4224AB04854B2A9031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54206505AE1DAB3B9753CE44E9818C5D /* FlagsmithClient.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlagsmithClient/FlagsmithClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlagsmithClient/FlagsmithClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlagsmithClient/FlagsmithClient.modulemap";
+				PRODUCT_MODULE_NAME = FlagsmithClient;
+				PRODUCT_NAME = FlagsmithClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA36654D91518771490FA1189700B315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9E7B157BC7CB4A9C72354772D86DF8 /* Build configuration list for PBXNativeTarget "FlagsmithClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A6F0112A33F566FF03C269177AF8B /* Debug */,
+				5F2C5E95ABD89A4224AB04854B2A9031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86C800AAC2D1A8F18429C0A07EA7516 /* Build configuration list for PBXNativeTarget "Pods-FlagsmithTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA36654D91518771490FA1189700B315 /* Debug */,
+				050BDE1769200A4842BC36879CD08EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
