@@ -7,73 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A9F0F955223C611623552B3EA4BF88 /* FlagsmithClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 129044A8E2946CFC689F74D93A81F2B9 /* FlagsmithClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B5077BC05E32C03F0B9CC555E81B921 /* TypedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C516ACCB420194F90F5277301555E /* TypedValue.swift */; };
-		44559B47904E3FC90DA01109D2B86199 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75010722235C36128BE9DBADC8216E89 /* APIManager.swift */; };
-		598A1E62B8319FF76212319DCF6D941C /* Flagsmith+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A5FBB9C3E43252D24D5A82421C6D5 /* Flagsmith+Concurrency.swift */; };
-		665B827AF8EB62E79776EF3B994F3F64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		693B28EEBE3C265864FBAD12B694A25A /* Trait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5A98668955B2450374DBD3FA987E0 /* Trait.swift */; };
-		6F8F44DEA2DD1EF9B7722144AE2FC6F7 /* Pods-FlagsmithTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F37EDF7A54D8F783769327EF5245D /* Pods-FlagsmithTest-dummy.m */; };
-		8D1572F377214810A89ADC8803DAA756 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714105894BE2F071B7DA73998027C0A4 /* Flag.swift */; };
-		A0AB7E8270D1D0C2B8FAC3978C3E673C /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56097A761179D97AFF7E5EA8340AD3C8 /* Feature.swift */; };
-		A91AE8A2FE0A7757ADFA055087389DBB /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC855DE2A840CC75904E5556FE10916A /* Identity.swift */; };
+		06A9F0F955223C611623552B3EA4BF88 /* FlagsmithClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D77E490AF7CDB10A40E1D5A20E3F12 /* FlagsmithClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5077BC05E32C03F0B9CC555E81B921 /* TypedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D5C96E1201FD05A0A2BCB2E44DD51D /* TypedValue.swift */; };
+		29FBAC9C08F7B0F0514FC99A76FD5A73 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8A19B1A278CB1DB8948D574F52526E /* Metrics.swift */; };
+		44559B47904E3FC90DA01109D2B86199 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28583C6641DC487E6288DE024AC901B8 /* APIManager.swift */; };
+		44EA6F4068760853284CB2BE9F0212DD /* UnleashProxyClientSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497AC214D8B063C4B9E44F7493220FEC /* UnleashProxyClientSwift.swift */; };
+		4E418055B60E07CE43B90E4F87082A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50CEF40DD3CC92D1AB4F87BD2DB0574E /* URLSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE8AE70D46691F55612292C02FBA3B8 /* URLSession+Extensions.swift */; };
+		598A1E62B8319FF76212319DCF6D941C /* Flagsmith+Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773EA95EE90427D38C7AB22B69A07B67 /* Flagsmith+Concurrency.swift */; };
+		59E17ECEC9C607FF708F96904CAE3176 /* SwiftEventBus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AE5446DA5361BA6EC98663168E4A2D /* SwiftEventBus-dummy.m */; };
+		5C1D90A509355357ECC729F9C2D6A875 /* SwiftEventBus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9E9EF40D41900C0F3AD24C10D6D965 /* SwiftEventBus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		693B28EEBE3C265864FBAD12B694A25A /* Trait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71662B75D48D19B741EB3960690A07DF /* Trait.swift */; };
+		6C94B2E9C7B1BA61391CA8E3E08638A2 /* Pods-FlagsmithTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 570FC864EA7747069F6D7D8CE99FD514 /* Pods-FlagsmithTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEA951942409C6DAD0F2AE22A859CFD /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C44392CE447646867A1E1426686630 /* Printer.swift */; };
+		8D1572F377214810A89ADC8803DAA756 /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2747F7CEAE8C3F749C94D9BDD0009AE2 /* Flag.swift */; };
+		9896D1397AB2319A99A2F9A36C96FF6E /* UnleashProxyClientSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD5652B99D23D84C4C96F6C38289D0 /* UnleashProxyClientSwift-dummy.m */; };
+		A0AB7E8270D1D0C2B8FAC3978C3E673C /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20F2C13BFF7E87D6DA32E10FC9B8E6 /* Feature.swift */; };
+		A62CFCAB1B2ACB6C275174E86E1A60C1 /* UnleashProxyClientSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0A345F812C35572115C98A56FF4C16 /* UnleashProxyClientSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A91AE8A2FE0A7757ADFA055087389DBB /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D511AB86267A50B53C48DF439D6564B /* Identity.swift */; };
 		AD6A14DF7F87E8670BC087180E9BAD62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C3374E1D16F2D7CC69C56F58B48AAD93 /* FlagsmithAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F524A86FD7D85DBB4137FF358A822D /* FlagsmithAnalytics.swift */; };
-		D91335013DB9C4B6F8D12F520F35480D /* FlagsmithClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5736A8BFD59117594B2F20AA5A0A403C /* FlagsmithClient-dummy.m */; };
-		DBBEDBD1A6253C44C9C03C50532E612A /* UnknownTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBEE6511A34C87F52A7B2868794C793 /* UnknownTypeValue.swift */; };
-		E1985E6546BB3F066EAD744869619C41 /* Pods-FlagsmithTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 570FC864EA7747069F6D7D8CE99FD514 /* Pods-FlagsmithTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E92AE953E299104A0F6CB27BE01102D4 /* Flagsmith.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E98D970845E1D4ED9AC868DCED5174 /* Flagsmith.swift */; };
+		B04198D12DEB0662D707B45C756110A7 /* Poller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E95D803114A38476B0AA0EFF07BA1 /* Poller.swift */; };
+		B9554EE897D8E683982DC6D151A4B529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3374E1D16F2D7CC69C56F58B48AAD93 /* FlagsmithAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC201D37947DE7C7E4D6D26148CA12 /* FlagsmithAnalytics.swift */; };
+		C758164634271002368A94773CEDB127 /* SwiftEventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB8F6E3640E44B78122C4A157829DC /* SwiftEventBus.swift */; };
+		D91335013DB9C4B6F8D12F520F35480D /* FlagsmithClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B290116047616084498C68DBD84CF /* FlagsmithClient-dummy.m */; };
+		DBBEDBD1A6253C44C9C03C50532E612A /* UnknownTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A3D5A6ECCC51B5BA77A35F3B23E1B /* UnknownTypeValue.swift */; };
+		DE816EA223D954F609E9A00529D52192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E92AE953E299104A0F6CB27BE01102D4 /* Flagsmith.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED04AF3F565CA4BC065A7B3725F74E65 /* Flagsmith.swift */; };
+		EC9717887CF691A0875D73C54573EE3A /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EFF3A278B8EDED2769F71DDA8109D /* Context.swift */; };
+		EE018E5F4DF20AFEC61874FA8342C9D7 /* Pods-FlagsmithTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F37EDF7A54D8F783769327EF5245D /* Pods-FlagsmithTest-dummy.m */; };
+		FDAB4EE91393ECABC81FADFF7F7C88EF /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B820769E5FE5CB874AC58FE7C745E /* utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A68C9699641D306D1D705EF29BC028C4 /* PBXContainerItemProxy */ = {
+		5251130E82085362AA5A09C39B902DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3823EA8C6E7D40428EA24CB57463AB96;
+			remoteInfo = UnleashProxyClientSwift;
+		};
+		5C96F88741D79422D23DACDE1EEAEBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA14357F3B92589AC87E00C49118FF1;
+			remoteInfo = SwiftEventBus;
+		};
+		A6AF75766B46029FB44198DB07791EA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11AAFF8883A32F4C9C2E17C1B1AE0614;
 			remoteInfo = FlagsmithClient;
 		};
+		D69D34E9EFBD935C2BF16B496BC23E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAA14357F3B92589AC87E00C49118FF1;
+			remoteInfo = SwiftEventBus;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FlagsmithTest"; path = Pods_FlagsmithTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		129044A8E2946CFC689F74D93A81F2B9 /* FlagsmithClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-umbrella.h"; sourceTree = "<group>"; };
-		34F524A86FD7D85DBB4137FF358A822D /* FlagsmithAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagsmithAnalytics.swift; path = FlagsmithClient/Classes/FlagsmithAnalytics.swift; sourceTree = "<group>"; };
+		09FF600E1E56A04D7B4654342C4E7B05 /* UnleashProxyClientSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnleashProxyClientSwift-prefix.pch"; sourceTree = "<group>"; };
+		0FC813939864FF11533AF4BF247CC1D4 /* SwiftEventBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftEventBus.debug.xcconfig; sourceTree = "<group>"; };
+		118122394F5FECF8636D1085AF62DEE4 /* SwiftEventBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftEventBus.release.xcconfig; sourceTree = "<group>"; };
+		1FAD5652B99D23D84C4C96F6C38289D0 /* UnleashProxyClientSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnleashProxyClientSwift-dummy.m"; sourceTree = "<group>"; };
+		2747F7CEAE8C3F749C94D9BDD0009AE2 /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = FlagsmithClient/Classes/Flag.swift; sourceTree = "<group>"; };
+		27AE5446DA5361BA6EC98663168E4A2D /* SwiftEventBus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftEventBus-dummy.m"; sourceTree = "<group>"; };
+		28583C6641DC487E6288DE024AC901B8 /* APIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = FlagsmithClient/Classes/APIManager.swift; sourceTree = "<group>"; };
 		371F37EDF7A54D8F783769327EF5245D /* Pods-FlagsmithTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlagsmithTest-dummy.m"; sourceTree = "<group>"; };
+		3A8A19B1A278CB1DB8948D574F52526E /* Metrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metrics.swift; path = Sources/UnleashProxyClientSwift/Metrics.swift; sourceTree = "<group>"; };
+		497AC214D8B063C4B9E44F7493220FEC /* UnleashProxyClientSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnleashProxyClientSwift.swift; path = Sources/UnleashProxyClientSwift/UnleashProxyClientSwift.swift; sourceTree = "<group>"; };
 		4C3AC3C9026F3710FF3C9774E4EDA661 /* Pods-FlagsmithTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlagsmithTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54206505AE1DAB3B9753CE44E9818C5D /* FlagsmithClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.release.xcconfig; sourceTree = "<group>"; };
-		56097A761179D97AFF7E5EA8340AD3C8 /* Feature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = FlagsmithClient/Classes/Feature.swift; sourceTree = "<group>"; };
+		519C5CCFCBB35D29C810CE83571DB7A1 /* SwiftEventBus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftEventBus.modulemap; sourceTree = "<group>"; };
+		5363E6513520A0A6CE58C1B2A1F04A61 /* SwiftEventBus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftEventBus-Info.plist"; sourceTree = "<group>"; };
+		557EFF3A278B8EDED2769F71DDA8109D /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/UnleashProxyClientSwift/Context.swift; sourceTree = "<group>"; };
 		570FC864EA7747069F6D7D8CE99FD514 /* Pods-FlagsmithTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlagsmithTest-umbrella.h"; sourceTree = "<group>"; };
-		5736A8BFD59117594B2F20AA5A0A403C /* FlagsmithClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagsmithClient-dummy.m"; sourceTree = "<group>"; };
-		5C377B3B6A5682C828A1E1C9A707C7BB /* FlagsmithClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.debug.xcconfig; sourceTree = "<group>"; };
+		5950A29986367279C24CF3BACD171C9E /* FlagsmithClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagsmithClient-Info.plist"; sourceTree = "<group>"; };
+		5C7B820769E5FE5CB874AC58FE7C745E /* utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = utils.swift; path = Sources/UnleashProxyClientSwift/utils.swift; sourceTree = "<group>"; };
+		60C73288798639C300794CCB64764E2C /* FlagsmithClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.debug.xcconfig; sourceTree = "<group>"; };
 		68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagsmithClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		714105894BE2F071B7DA73998027C0A4 /* Flag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flag.swift; path = FlagsmithClient/Classes/Flag.swift; sourceTree = "<group>"; };
+		6BBE70F90F2A533D56BF6ABD6A701302 /* SwiftEventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEventBus-prefix.pch"; sourceTree = "<group>"; };
+		6D511AB86267A50B53C48DF439D6564B /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = FlagsmithClient/Classes/Identity.swift; sourceTree = "<group>"; };
+		71662B75D48D19B741EB3960690A07DF /* Trait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trait.swift; path = FlagsmithClient/Classes/Trait.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75010722235C36128BE9DBADC8216E89 /* APIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = FlagsmithClient/Classes/APIManager.swift; sourceTree = "<group>"; };
-		8BBEE6511A34C87F52A7B2868794C793 /* UnknownTypeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownTypeValue.swift; path = FlagsmithClient/Classes/UnknownTypeValue.swift; sourceTree = "<group>"; };
+		773EA95EE90427D38C7AB22B69A07B67 /* Flagsmith+Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flagsmith+Concurrency.swift"; path = "FlagsmithClient/Classes/Flagsmith+Concurrency.swift"; sourceTree = "<group>"; };
+		7DB665972C3FFE6E344C31EC6D0D0351 /* FlagsmithClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-prefix.pch"; sourceTree = "<group>"; };
+		82D5C96E1201FD05A0A2BCB2E44DD51D /* TypedValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypedValue.swift; path = FlagsmithClient/Classes/TypedValue.swift; sourceTree = "<group>"; };
+		855EB41CB01EE1DDB4856B91D67EB121 /* SwiftEventBus */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftEventBus; path = SwiftEventBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1B290116047616084498C68DBD84CF /* FlagsmithClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlagsmithClient-dummy.m"; sourceTree = "<group>"; };
+		8D63E8B705C3E70FCA37564AB9C514EC /* UnleashProxyClientSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnleashProxyClientSwift-Info.plist"; sourceTree = "<group>"; };
+		8E0A345F812C35572115C98A56FF4C16 /* UnleashProxyClientSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnleashProxyClientSwift-umbrella.h"; sourceTree = "<group>"; };
 		90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlagsmithTest.debug.xcconfig"; sourceTree = "<group>"; };
-		9BD5A98668955B2450374DBD3FA987E0 /* Trait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trait.swift; path = FlagsmithClient/Classes/Trait.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3D265BEAADE7CCCA80B6FF9040E8375 /* FlagsmithClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagsmithClient.modulemap; sourceTree = "<group>"; };
-		A3E98D970845E1D4ED9AC868DCED5174 /* Flagsmith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagsmith.swift; path = FlagsmithClient/Classes/Flagsmith.swift; sourceTree = "<group>"; };
+		A2785C0D963DC0F9CC28000587D5BB2F /* FlagsmithClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagsmithClient.modulemap; sourceTree = "<group>"; };
+		A2D77E490AF7CDB10A40E1D5A20E3F12 /* FlagsmithClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-umbrella.h"; sourceTree = "<group>"; };
+		A7C44392CE447646867A1E1426686630 /* Printer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = Sources/UnleashProxyClientSwift/Printer.swift; sourceTree = "<group>"; };
 		A89E897245C4A4A7DE8A4DE921973904 /* Pods-FlagsmithTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlagsmithTest-Info.plist"; sourceTree = "<group>"; };
-		AC5A5FBB9C3E43252D24D5A82421C6D5 /* Flagsmith+Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Flagsmith+Concurrency.swift"; path = "FlagsmithClient/Classes/Flagsmith+Concurrency.swift"; sourceTree = "<group>"; };
+		AAE8AE70D46691F55612292C02FBA3B8 /* URLSession+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+Extensions.swift"; path = "Sources/UnleashProxyClientSwift/URLSession+Extensions.swift"; sourceTree = "<group>"; };
+		AD20F2C13BFF7E87D6DA32E10FC9B8E6 /* Feature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Feature.swift; path = FlagsmithClient/Classes/Feature.swift; sourceTree = "<group>"; };
 		AE5A47F94246A8274713E26A5EB9E030 /* Pods-FlagsmithTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlagsmithTest-frameworks.sh"; sourceTree = "<group>"; };
+		BD9E9EF40D41900C0F3AD24C10D6D965 /* SwiftEventBus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEventBus-umbrella.h"; sourceTree = "<group>"; };
 		BF9166F6DD14DE3FDCA89D20BAEFFD5F /* Pods-FlagsmithTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlagsmithTest.release.xcconfig"; sourceTree = "<group>"; };
-		C24BCC81B2D4A9C041C1287BFDF7E504 /* FlagsmithClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagsmithClient-Info.plist"; sourceTree = "<group>"; };
+		C55C850F7BC75BFB80EE26D140EB8811 /* FlagsmithClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.release.xcconfig; sourceTree = "<group>"; };
 		C7617365231126B7F12F1FBAAB41FC37 /* Pods-FlagsmithTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlagsmithTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC855DE2A840CC75904E5556FE10916A /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = FlagsmithClient/Classes/Identity.swift; sourceTree = "<group>"; };
-		D91C516ACCB420194F90F5277301555E /* TypedValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypedValue.swift; path = FlagsmithClient/Classes/TypedValue.swift; sourceTree = "<group>"; };
+		D52E95D803114A38476B0AA0EFF07BA1 /* Poller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poller.swift; path = Sources/UnleashProxyClientSwift/Poller.swift; sourceTree = "<group>"; };
+		D729C4740B603A8BEC591B5D9E73174F /* UnleashProxyClientSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnleashProxyClientSwift.release.xcconfig; sourceTree = "<group>"; };
+		D8D4B7A624DF092EEB2FF305AACDECE8 /* UnleashProxyClientSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnleashProxyClientSwift.debug.xcconfig; sourceTree = "<group>"; };
 		D98880538C3D68B3940EE38CB97A7D4D /* Pods-FlagsmithTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlagsmithTest.modulemap"; sourceTree = "<group>"; };
-		FC774A09A6438007F97FD597FB89A90E /* FlagsmithClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-prefix.pch"; sourceTree = "<group>"; };
+		DE46B0B5C6790ADAB7008A5A3434D0F4 /* UnleashProxyClientSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnleashProxyClientSwift.modulemap; sourceTree = "<group>"; };
+		E129DBEA493F2DFB4A94670AC48A4486 /* UnleashProxyClientSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnleashProxyClientSwift; path = UnleashProxyClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17A3D5A6ECCC51B5BA77A35F3B23E1B /* UnknownTypeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownTypeValue.swift; path = FlagsmithClient/Classes/UnknownTypeValue.swift; sourceTree = "<group>"; };
+		E9CB8F6E3640E44B78122C4A157829DC /* SwiftEventBus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftEventBus.swift; path = SwiftEventBus/SwiftEventBus.swift; sourceTree = "<group>"; };
+		ED04AF3F565CA4BC065A7B3725F74E65 /* Flagsmith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Flagsmith.swift; path = FlagsmithClient/Classes/Flagsmith.swift; sourceTree = "<group>"; };
+		EEFC201D37947DE7C7E4D6D26148CA12 /* FlagsmithAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlagsmithAnalytics.swift; path = FlagsmithClient/Classes/FlagsmithAnalytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EF4BF84680C8C808173E961CF2677C43 /* Frameworks */ = {
+		06A11CA7B9AA7A00313DFB92017ACE12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665B827AF8EB62E79776EF3B994F3F64 /* Foundation.framework in Frameworks */,
+				B9554EE897D8E683982DC6D151A4B529 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E2757B13C964ED87F57F55B1FE79F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE816EA223D954F609E9A00529D52192 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6795095018BDAE738F596172825912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E418055B60E07CE43B90E4F87082A6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +163,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B31982F3E1C2CA375F485FA0775CA3F /* FlagsmithClient */ = {
+			isa = PBXGroup;
+			children = (
+				28583C6641DC487E6288DE024AC901B8 /* APIManager.swift */,
+				AD20F2C13BFF7E87D6DA32E10FC9B8E6 /* Feature.swift */,
+				2747F7CEAE8C3F749C94D9BDD0009AE2 /* Flag.swift */,
+				ED04AF3F565CA4BC065A7B3725F74E65 /* Flagsmith.swift */,
+				773EA95EE90427D38C7AB22B69A07B67 /* Flagsmith+Concurrency.swift */,
+				EEFC201D37947DE7C7E4D6D26148CA12 /* FlagsmithAnalytics.swift */,
+				6D511AB86267A50B53C48DF439D6564B /* Identity.swift */,
+				71662B75D48D19B741EB3960690A07DF /* Trait.swift */,
+				82D5C96E1201FD05A0A2BCB2E44DD51D /* TypedValue.swift */,
+				E17A3D5A6ECCC51B5BA77A35F3B23E1B /* UnknownTypeValue.swift */,
+				5B2F7B488C9E0D7B1715402E98137C26 /* Support Files */,
+			);
+			path = FlagsmithClient;
+			sourceTree = "<group>";
+		};
+		38FDA7DD64C9DCA392C0E4B4DC02854E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */,
+				012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */,
+				855EB41CB01EE1DDB4856B91D67EB121 /* SwiftEventBus */,
+				E129DBEA493F2DFB4A94670AC48A4486 /* UnleashProxyClientSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B2F7B488C9E0D7B1715402E98137C26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2785C0D963DC0F9CC28000587D5BB2F /* FlagsmithClient.modulemap */,
+				8B1B290116047616084498C68DBD84CF /* FlagsmithClient-dummy.m */,
+				5950A29986367279C24CF3BACD171C9E /* FlagsmithClient-Info.plist */,
+				7DB665972C3FFE6E344C31EC6D0D0351 /* FlagsmithClient-prefix.pch */,
+				A2D77E490AF7CDB10A40E1D5A20E3F12 /* FlagsmithClient-umbrella.h */,
+				60C73288798639C300794CCB64764E2C /* FlagsmithClient.debug.xcconfig */,
+				C55C850F7BC75BFB80EE26D140EB8811 /* FlagsmithClient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlagsmithClient";
+			sourceTree = "<group>";
+		};
+		7939416FFAE5CB69D202F0864C189219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B31982F3E1C2CA375F485FA0775CA3F /* FlagsmithClient */,
+				C21C1E943E4A3C932F129A4C0F44A2DA /* SwiftEventBus */,
+				8DF051CE9C8EE0CCF3F2254E79C61113 /* UnleashProxyClientSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		835538F70667B1DB66D0B9A5AF14D617 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE46B0B5C6790ADAB7008A5A3434D0F4 /* UnleashProxyClientSwift.modulemap */,
+				1FAD5652B99D23D84C4C96F6C38289D0 /* UnleashProxyClientSwift-dummy.m */,
+				8D63E8B705C3E70FCA37564AB9C514EC /* UnleashProxyClientSwift-Info.plist */,
+				09FF600E1E56A04D7B4654342C4E7B05 /* UnleashProxyClientSwift-prefix.pch */,
+				8E0A345F812C35572115C98A56FF4C16 /* UnleashProxyClientSwift-umbrella.h */,
+				D8D4B7A624DF092EEB2FF305AACDECE8 /* UnleashProxyClientSwift.debug.xcconfig */,
+				D729C4740B603A8BEC591B5D9E73174F /* UnleashProxyClientSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UnleashProxyClientSwift";
+			sourceTree = "<group>";
+		};
+		8DF051CE9C8EE0CCF3F2254E79C61113 /* UnleashProxyClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				557EFF3A278B8EDED2769F71DDA8109D /* Context.swift */,
+				3A8A19B1A278CB1DB8948D574F52526E /* Metrics.swift */,
+				D52E95D803114A38476B0AA0EFF07BA1 /* Poller.swift */,
+				A7C44392CE447646867A1E1426686630 /* Printer.swift */,
+				497AC214D8B063C4B9E44F7493220FEC /* UnleashProxyClientSwift.swift */,
+				AAE8AE70D46691F55612292C02FBA3B8 /* URLSession+Extensions.swift */,
+				5C7B820769E5FE5CB874AC58FE7C745E /* utils.swift */,
+				835538F70667B1DB66D0B9A5AF14D617 /* Support Files */,
+			);
+			path = UnleashProxyClientSwift;
 			sourceTree = "<group>";
 		};
 		9DB216372A6594B4A6E7F28BB642A748 /* Pods-FlagsmithTest */ = {
@@ -113,22 +272,13 @@
 			path = "Target Support Files/Pods-FlagsmithTest";
 			sourceTree = "<group>";
 		};
-		CACB504E7B64C3B2632DECF67A205B49 /* FlagsmithClient */ = {
+		C21C1E943E4A3C932F129A4C0F44A2DA /* SwiftEventBus */ = {
 			isa = PBXGroup;
 			children = (
-				75010722235C36128BE9DBADC8216E89 /* APIManager.swift */,
-				56097A761179D97AFF7E5EA8340AD3C8 /* Feature.swift */,
-				714105894BE2F071B7DA73998027C0A4 /* Flag.swift */,
-				A3E98D970845E1D4ED9AC868DCED5174 /* Flagsmith.swift */,
-				AC5A5FBB9C3E43252D24D5A82421C6D5 /* Flagsmith+Concurrency.swift */,
-				34F524A86FD7D85DBB4137FF358A822D /* FlagsmithAnalytics.swift */,
-				CC855DE2A840CC75904E5556FE10916A /* Identity.swift */,
-				9BD5A98668955B2450374DBD3FA987E0 /* Trait.swift */,
-				D91C516ACCB420194F90F5277301555E /* TypedValue.swift */,
-				8BBEE6511A34C87F52A7B2868794C793 /* UnknownTypeValue.swift */,
-				E239FFF60F074F8872CF8C70C30BAF82 /* Support Files */,
+				E9CB8F6E3640E44B78122C4A157829DC /* SwiftEventBus.swift */,
+				F3261F5F02B4563BA111D8C087C16AAD /* Support Files */,
 			);
-			path = FlagsmithClient;
+			path = SwiftEventBus;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -136,8 +286,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DF1A8AD6BDD5B254402A54DE41010F86 /* Pods */,
-				E5F733890E5D67BFCD1DCA8ACA2A441E /* Products */,
+				7939416FFAE5CB69D202F0864C189219 /* Pods */,
+				38FDA7DD64C9DCA392C0E4B4DC02854E /* Products */,
 				D40ECD8F8EFB326C4B45D06FAA144455 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -158,46 +308,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DF1A8AD6BDD5B254402A54DE41010F86 /* Pods */ = {
+		F3261F5F02B4563BA111D8C087C16AAD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CACB504E7B64C3B2632DECF67A205B49 /* FlagsmithClient */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E239FFF60F074F8872CF8C70C30BAF82 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3D265BEAADE7CCCA80B6FF9040E8375 /* FlagsmithClient.modulemap */,
-				5736A8BFD59117594B2F20AA5A0A403C /* FlagsmithClient-dummy.m */,
-				C24BCC81B2D4A9C041C1287BFDF7E504 /* FlagsmithClient-Info.plist */,
-				FC774A09A6438007F97FD597FB89A90E /* FlagsmithClient-prefix.pch */,
-				129044A8E2946CFC689F74D93A81F2B9 /* FlagsmithClient-umbrella.h */,
-				5C377B3B6A5682C828A1E1C9A707C7BB /* FlagsmithClient.debug.xcconfig */,
-				54206505AE1DAB3B9753CE44E9818C5D /* FlagsmithClient.release.xcconfig */,
+				519C5CCFCBB35D29C810CE83571DB7A1 /* SwiftEventBus.modulemap */,
+				27AE5446DA5361BA6EC98663168E4A2D /* SwiftEventBus-dummy.m */,
+				5363E6513520A0A6CE58C1B2A1F04A61 /* SwiftEventBus-Info.plist */,
+				6BBE70F90F2A533D56BF6ABD6A701302 /* SwiftEventBus-prefix.pch */,
+				BD9E9EF40D41900C0F3AD24C10D6D965 /* SwiftEventBus-umbrella.h */,
+				0FC813939864FF11533AF4BF247CC1D4 /* SwiftEventBus.debug.xcconfig */,
+				118122394F5FECF8636D1085AF62DEE4 /* SwiftEventBus.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FlagsmithClient";
-			sourceTree = "<group>";
-		};
-		E5F733890E5D67BFCD1DCA8ACA2A441E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */,
-				012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */,
-			);
-			name = Products;
+			path = "../Target Support Files/SwiftEventBus";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ADFF4E35F6A62F900D04D0287AFD1BBF /* Headers */ = {
+		03ED66F712FF8F8EFFCDA1E546731A06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1985E6546BB3F066EAD744869619C41 /* Pods-FlagsmithTest-umbrella.h in Headers */,
+				5C1D90A509355357ECC729F9C2D6A875 /* SwiftEventBus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9E71C854953768A01D883DD1FFD0CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C94B2E9C7B1BA61391CA8E3E08638A2 /* Pods-FlagsmithTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8361934FE863B8A55BB84B2B4B0B481F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62CFCAB1B2ACB6C275174E86E1A60C1 /* UnleashProxyClientSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,23 +379,62 @@
 			productReference = 68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D99879F9C33406A741F782DFA2438B9 /* Pods-FlagsmithTest */ = {
+		3823EA8C6E7D40428EA24CB57463AB96 /* UnleashProxyClientSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B86C800AAC2D1A8F18429C0A07EA7516 /* Build configuration list for PBXNativeTarget "Pods-FlagsmithTest" */;
+			buildConfigurationList = 1D48894ABE950E436CF91D5D3B1B8785 /* Build configuration list for PBXNativeTarget "UnleashProxyClientSwift" */;
 			buildPhases = (
-				ADFF4E35F6A62F900D04D0287AFD1BBF /* Headers */,
-				0F6DE9875B38B5B8572FE20EEC285B70 /* Sources */,
-				EF4BF84680C8C808173E961CF2677C43 /* Frameworks */,
-				E002CAA60A7E5668100ADBD0533722E5 /* Resources */,
+				8361934FE863B8A55BB84B2B4B0B481F /* Headers */,
+				B758B5AC6609B138D8A8E37B844EA99E /* Sources */,
+				15E2757B13C964ED87F57F55B1FE79F7 /* Frameworks */,
+				53C65315F9FC3A7DBF76A9A8E6AF60E8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BF7640235FF63CECC4882865ED37D1D /* PBXTargetDependency */,
+				BEF4EE352947FD237F7EBBF463903546 /* PBXTargetDependency */,
+			);
+			name = UnleashProxyClientSwift;
+			productName = UnleashProxyClientSwift;
+			productReference = E129DBEA493F2DFB4A94670AC48A4486 /* UnleashProxyClientSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D99879F9C33406A741F782DFA2438B9 /* Pods-FlagsmithTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28EB6AA83D151B10323ED40D593D499D /* Build configuration list for PBXNativeTarget "Pods-FlagsmithTest" */;
+			buildPhases = (
+				4D9E71C854953768A01D883DD1FFD0CB /* Headers */,
+				056FC833CB1A43C9B4410E654EF39E3C /* Sources */,
+				06A11CA7B9AA7A00313DFB92017ACE12 /* Frameworks */,
+				C5353DE50E60984FF4E113736322ACEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06B454B338AD8541BC48F028769AC266 /* PBXTargetDependency */,
+				EA169899EA2C6C4B01AE410653EFF623 /* PBXTargetDependency */,
+				AE005938D6F154D73ABD15DF74915889 /* PBXTargetDependency */,
 			);
 			name = "Pods-FlagsmithTest";
 			productName = Pods_FlagsmithTest;
 			productReference = 012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FA43B385034123F1C7258C5CFB327F /* Build configuration list for PBXNativeTarget "SwiftEventBus" */;
+			buildPhases = (
+				03ED66F712FF8F8EFFCDA1E546731A06 /* Headers */,
+				22A4B8DFF0F624FABB90406B77346294 /* Sources */,
+				FC6795095018BDAE738F596172825912 /* Frameworks */,
+				F39884A1D40DDAA4208BD199C24A8CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftEventBus;
+			productName = SwiftEventBus;
+			productReference = 855EB41CB01EE1DDB4856B91D67EB121 /* SwiftEventBus */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -267,17 +455,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E5F733890E5D67BFCD1DCA8ACA2A441E /* Products */;
+			productRefGroup = 38FDA7DD64C9DCA392C0E4B4DC02854E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				11AAFF8883A32F4C9C2E17C1B1AE0614 /* FlagsmithClient */,
 				9D99879F9C33406A741F782DFA2438B9 /* Pods-FlagsmithTest */,
+				BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */,
+				3823EA8C6E7D40428EA24CB57463AB96 /* UnleashProxyClientSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		53C65315F9FC3A7DBF76A9A8E6AF60E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5353DE50E60984FF4E113736322ACEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C91BA5019DA91A49CD24A58911E75EDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,7 +489,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E002CAA60A7E5668100ADBD0533722E5 /* Resources */ = {
+		F39884A1D40DDAA4208BD199C24A8CE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,11 +499,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F6DE9875B38B5B8572FE20EEC285B70 /* Sources */ = {
+		056FC833CB1A43C9B4410E654EF39E3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8F44DEA2DD1EF9B7722144AE2FC6F7 /* Pods-FlagsmithTest-dummy.m in Sources */,
+				EE018E5F4DF20AFEC61874FA8342C9D7 /* Pods-FlagsmithTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A4B8DFF0F624FABB90406B77346294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C758164634271002368A94773CEDB127 /* SwiftEventBus.swift in Sources */,
+				59E17ECEC9C607FF708F96904CAE3176 /* SwiftEventBus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B758B5AC6609B138D8A8E37B844EA99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9717887CF691A0875D73C54573EE3A /* Context.swift in Sources */,
+				29FBAC9C08F7B0F0514FC99A76FD5A73 /* Metrics.swift in Sources */,
+				B04198D12DEB0662D707B45C756110A7 /* Poller.swift in Sources */,
+				6CEA951942409C6DAD0F2AE22A859CFD /* Printer.swift in Sources */,
+				44EA6F4068760853284CB2BE9F0212DD /* UnleashProxyClientSwift.swift in Sources */,
+				9896D1397AB2319A99A2F9A36C96FF6E /* UnleashProxyClientSwift-dummy.m in Sources */,
+				50CEF40DD3CC92D1AB4F87BD2DB0574E /* URLSession+Extensions.swift in Sources */,
+				FDAB4EE91393ECABC81FADFF7F7C88EF /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,18 +552,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BF7640235FF63CECC4882865ED37D1D /* PBXTargetDependency */ = {
+		06B454B338AD8541BC48F028769AC266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlagsmithClient;
 			target = 11AAFF8883A32F4C9C2E17C1B1AE0614 /* FlagsmithClient */;
-			targetProxy = A68C9699641D306D1D705EF29BC028C4 /* PBXContainerItemProxy */;
+			targetProxy = A6AF75766B46029FB44198DB07791EA9 /* PBXContainerItemProxy */;
+		};
+		AE005938D6F154D73ABD15DF74915889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnleashProxyClientSwift;
+			target = 3823EA8C6E7D40428EA24CB57463AB96 /* UnleashProxyClientSwift */;
+			targetProxy = 5251130E82085362AA5A09C39B902DEF /* PBXContainerItemProxy */;
+		};
+		BEF4EE352947FD237F7EBBF463903546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftEventBus;
+			target = BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */;
+			targetProxy = D69D34E9EFBD935C2BF16B496BC23E50 /* PBXContainerItemProxy */;
+		};
+		EA169899EA2C6C4B01AE410653EFF623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftEventBus;
+			target = BAA14357F3B92589AC87E00C49118FF1 /* SwiftEventBus */;
+			targetProxy = 5C96F88741D79422D23DACDE1EEAEBC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		050BDE1769200A4842BC36879CD08EE1 /* Release */ = {
+		1AE07023C47D34D5DDDED4EF950374C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF9166F6DD14DE3FDCA89D20BAEFFD5F /* Pods-FlagsmithTest.release.xcconfig */;
+			baseConfigurationReference = 90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -365,11 +611,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -439,7 +684,7 @@
 		};
 		3B3A6F0112A33F566FF03C269177AF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C377B3B6A5682C828A1E1C9A707C7BB /* FlagsmithClient.debug.xcconfig */;
+			baseConfigurationReference = 60C73288798639C300794CCB64764E2C /* FlagsmithClient.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -471,9 +716,44 @@
 			};
 			name = Debug;
 		};
+		3D537F552237EF4BB887FF2AEEE930C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D729C4740B603A8BEC591B5D9E73174F /* UnleashProxyClientSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift.modulemap";
+				PRODUCT_MODULE_NAME = UnleashProxyClientSwift;
+				PRODUCT_NAME = UnleashProxyClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5F2C5E95ABD89A4224AB04854B2A9031 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54206505AE1DAB3B9753CE44E9818C5D /* FlagsmithClient.release.xcconfig */;
+			baseConfigurationReference = C55C850F7BC75BFB80EE26D140EB8811 /* FlagsmithClient.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -499,6 +779,41 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60AF96A549FC505B15BC618E925C4189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118122394F5FECF8636D1085AF62DEE4 /* SwiftEventBus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftEventBus/SwiftEventBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftEventBus/SwiftEventBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftEventBus/SwiftEventBus.modulemap";
+				PRODUCT_MODULE_NAME = SwiftEventBus;
+				PRODUCT_NAME = SwiftEventBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -568,9 +883,9 @@
 			};
 			name = Release;
 		};
-		EA36654D91518771490FA1189700B315 /* Debug */ = {
+		EFFDBEF45A01CB5C1F4576A09A24DAA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */;
+			baseConfigurationReference = BF9166F6DD14DE3FDCA89D20BAEFFD5F /* Pods-FlagsmithTest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -600,6 +915,75 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F50F3214BAADFF30731D21C537A459A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC813939864FF11533AF4BF247CC1D4 /* SwiftEventBus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftEventBus/SwiftEventBus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftEventBus/SwiftEventBus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftEventBus/SwiftEventBus.modulemap";
+				PRODUCT_MODULE_NAME = SwiftEventBus;
+				PRODUCT_NAME = SwiftEventBus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F519370634540A644C92A59CE79DA716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D4B7A624DF092EEB2FF305AACDECE8 /* UnleashProxyClientSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift.modulemap";
+				PRODUCT_MODULE_NAME = UnleashProxyClientSwift;
+				PRODUCT_NAME = UnleashProxyClientSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -608,6 +992,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D48894ABE950E436CF91D5D3B1B8785 /* Build configuration list for PBXNativeTarget "UnleashProxyClientSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F519370634540A644C92A59CE79DA716 /* Debug */,
+				3D537F552237EF4BB887FF2AEEE930C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28EB6AA83D151B10323ED40D593D499D /* Build configuration list for PBXNativeTarget "Pods-FlagsmithTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE07023C47D34D5DDDED4EF950374C2 /* Debug */,
+				EFFDBEF45A01CB5C1F4576A09A24DAA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -626,11 +1028,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B86C800AAC2D1A8F18429C0A07EA7516 /* Build configuration list for PBXNativeTarget "Pods-FlagsmithTest" */ = {
+		D7FA43B385034123F1C7258C5CFB327F /* Build configuration list for PBXNativeTarget "SwiftEventBus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA36654D91518771490FA1189700B315 /* Debug */,
-				050BDE1769200A4842BC36879CD08EE1 /* Release */,
+				F50F3214BAADFF30731D21C537A459A0 /* Debug */,
+				60AF96A549FC505B15BC618E925C4189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FlagsmithClient/FlagsmithClient.framework
+${BUILT_PRODUCTS_DIR}/SwiftEventBus/SwiftEventBus.framework
+${BUILT_PRODUCTS_DIR}/UnleashProxyClientSwift/UnleashProxyClientSwift.framework

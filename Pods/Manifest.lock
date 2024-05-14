@@ -1,16 +1,24 @@
 PODS:
   - FlagsmithClient (1.2.1)
+  - SwiftEventBus (5.0.0)
+  - UnleashProxyClientSwift (1.2.1):
+    - SwiftEventBus
 
 DEPENDENCIES:
-  - FlagsmithClient (~> 1.0)
+  - FlagsmithClient
+  - UnleashProxyClientSwift
 
 SPEC REPOS:
   trunk:
     - FlagsmithClient
+    - SwiftEventBus
+    - UnleashProxyClientSwift
 
 SPEC CHECKSUMS:
   FlagsmithClient: 9f62d8d074c7d14602fee6ccdea8fbe9281d20a0
+  SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
+  UnleashProxyClientSwift: 2a121ec0684ac50e78149564ca3d48ab72a1ea37
 
-PODFILE CHECKSUM: 294bdd859952a8946966af04d4a79ca3ef6612b7
+PODFILE CHECKSUM: 387e54d2376508a4b930ec6e3c3fd9ae178dc2a2
 
 COCOAPODS: 1.15.2

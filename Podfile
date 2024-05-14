@@ -5,7 +5,8 @@ target 'FlagsmithTest' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'FlagsmithClient', '~> 1.0'
+  pod 'FlagsmithClient'
+  pod 'UnleashProxyClientSwift'
   # Pods for FlagsmithTest
 
 end
