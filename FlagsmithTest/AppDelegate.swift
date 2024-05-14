@@ -6,28 +6,18 @@
 //
 
 import UIKit
-import FlagsmithClient
+import UnleashProxyClientSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var unleash = UnleashClient(
+        unleashUrl: "https://app.unleash-hosted.com/demo/api/frontend",
+        clientKey: "UnleashTest:development.3e833d3cc281bd4bea647da02edc1fe55b524516c12404bb90b3bbe8")
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        Flagsmith.shared.apiKey = "BSKcqbUQzBNnHusVocYf6d"
-        Flagsmith.shared.getFeatureFlags() { (result) in
-            switch result {
-            case .success(let flags):
-                for flag in flags {
-                    let name = flag.feature.name
-                    let value = flag.value.stringValue
-                    let enabled = flag.enabled
-                    print(name, "= enabled:", enabled, "value:", value ?? "nil")
-                }
-            case .failure(let error):
-                print(error)
-            }
-        }
-        
+        unleash.start()
         return true
     }
 

@@ -90,7 +90,7 @@
 		5950A29986367279C24CF3BACD171C9E /* FlagsmithClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlagsmithClient-Info.plist"; sourceTree = "<group>"; };
 		5C7B820769E5FE5CB874AC58FE7C745E /* utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = utils.swift; path = Sources/UnleashProxyClientSwift/utils.swift; sourceTree = "<group>"; };
 		60C73288798639C300794CCB64764E2C /* FlagsmithClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlagsmithClient.debug.xcconfig; sourceTree = "<group>"; };
-		68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlagsmithClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlagsmithClient; path = FlagsmithClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBE70F90F2A533D56BF6ABD6A701302 /* SwiftEventBus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftEventBus-prefix.pch"; sourceTree = "<group>"; };
 		6D511AB86267A50B53C48DF439D6564B /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = FlagsmithClient/Classes/Identity.swift; sourceTree = "<group>"; };
 		71662B75D48D19B741EB3960690A07DF /* Trait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trait.swift; path = FlagsmithClient/Classes/Trait.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		8D63E8B705C3E70FCA37564AB9C514EC /* UnleashProxyClientSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnleashProxyClientSwift-Info.plist"; sourceTree = "<group>"; };
 		8E0A345F812C35572115C98A56FF4C16 /* UnleashProxyClientSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnleashProxyClientSwift-umbrella.h"; sourceTree = "<group>"; };
 		90294DF0C4AFADEE55B64501F255C0C8 /* Pods-FlagsmithTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlagsmithTest.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2785C0D963DC0F9CC28000587D5BB2F /* FlagsmithClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlagsmithClient.modulemap; sourceTree = "<group>"; };
 		A2D77E490AF7CDB10A40E1D5A20E3F12 /* FlagsmithClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlagsmithClient-umbrella.h"; sourceTree = "<group>"; };
 		A7C44392CE447646867A1E1426686630 /* Printer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Printer.swift; path = Sources/UnleashProxyClientSwift/Printer.swift; sourceTree = "<group>"; };
@@ -178,13 +178,14 @@
 				E17A3D5A6ECCC51B5BA77A35F3B23E1B /* UnknownTypeValue.swift */,
 				5B2F7B488C9E0D7B1715402E98137C26 /* Support Files */,
 			);
+			name = FlagsmithClient;
 			path = FlagsmithClient;
 			sourceTree = "<group>";
 		};
 		38FDA7DD64C9DCA392C0E4B4DC02854E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */,
+				68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient */,
 				012A5360768BC5FEB0198BCD0E48D847 /* Pods-FlagsmithTest */,
 				855EB41CB01EE1DDB4856B91D67EB121 /* SwiftEventBus */,
 				E129DBEA493F2DFB4A94670AC48A4486 /* UnleashProxyClientSwift */,
@@ -252,6 +253,7 @@
 				5C7B820769E5FE5CB874AC58FE7C745E /* utils.swift */,
 				835538F70667B1DB66D0B9A5AF14D617 /* Support Files */,
 			);
+			name = UnleashProxyClientSwift;
 			path = UnleashProxyClientSwift;
 			sourceTree = "<group>";
 		};
@@ -278,6 +280,7 @@
 				E9CB8F6E3640E44B78122C4A157829DC /* SwiftEventBus.swift */,
 				F3261F5F02B4563BA111D8C087C16AAD /* Support Files */,
 			);
+			name = SwiftEventBus;
 			path = SwiftEventBus;
 			sourceTree = "<group>";
 		};
@@ -376,7 +379,7 @@
 			);
 			name = FlagsmithClient;
 			productName = FlagsmithClient;
-			productReference = 68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient.framework */;
+			productReference = 68DDF334F75630BAA85571DF47D87C89 /* FlagsmithClient */;
 			productType = "com.apple.product-type.framework";
 		};
 		3823EA8C6E7D40428EA24CB57463AB96 /* UnleashProxyClientSwift */ = {
@@ -595,7 +598,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,7 +700,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FlagsmithClient/FlagsmithClient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FlagsmithClient/FlagsmithClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -732,7 +735,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -766,7 +769,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FlagsmithClient/FlagsmithClient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FlagsmithClient/FlagsmithClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -801,7 +804,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftEventBus/SwiftEventBus-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftEventBus/SwiftEventBus-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -899,7 +902,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -936,7 +939,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftEventBus/SwiftEventBus-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftEventBus/SwiftEventBus-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -971,7 +974,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/UnleashProxyClientSwift/UnleashProxyClientSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FlagsmithClient
+//import FlagsmithClient
 
 class ViewController: UIViewController {
 
@@ -14,23 +14,38 @@ class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewWillAppear(_ animated: Bool) {
-        Flagsmith.shared.getFeatureFlags { result in
-            switch result {
-            case .success(let success):
-                print("\nGet Feature Flags by Identity userTest: ", success)
-                for flag in success {
-                    DispatchQueue.main.async {
-                        if flag.feature.name == "collectionview" {
-                            self.collectionView.isHidden = !flag.enabled
-                        } else {
-                            self.tableView.isHidden = !flag.enabled
-                        }
-                    }
-                }
-            case .failure(let failure):
-                print("Feature Flags Error: ", failure)
+        
+        var appDelegate = UIApplication.shared.delegate as? AppDelegate
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let value = appDelegate?.unleash.isEnabled(name: "testFeatureFlag")
+            if let val = value {
+                self.collectionView.isHidden = !val
+                print("val: ", val)
+            } else {
+                print("value: ", value)
             }
+            
         }
+        
+        
+//        Flagsmith.shared.getFeatureFlags(forIdentity: "test") { result in
+//            switch result {
+//            case .success(let success):
+//                print("Success: ",result)
+//                for flag in success {
+//                    DispatchQueue.main.async {
+//                        if flag.feature.name == "collectionview" {
+//                            self.collectionView.isHidden = !flag.enabled
+//                        } else {
+//                            self.tableView.isHidden = !flag.enabled
+//                        }
+//                    }
+//                }
+//            case .failure(let failure):
+//                print("Feature Flags Error: ", failure)
+//            }
+//        }
     }
     
     override func viewDidLoad() {
