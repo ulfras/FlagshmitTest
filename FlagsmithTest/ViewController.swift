@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var button: UIButton!
     
     override func viewWillAppear(_ animated: Bool) {
         Flagsmith.shared.getFeatureFlags { result in
@@ -35,6 +36,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.title = "Test Flagsmith"
+        title = "Flagsmith"
+        title = "Flagsmith"
+        
+        button.layer.cornerRadius = 12
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.blue.cgColor
+        
         tableView.dataSource = self
         tableView.delegate = self
         
