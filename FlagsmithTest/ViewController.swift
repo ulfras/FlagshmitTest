@@ -15,17 +15,24 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         
-        var appDelegate = UIApplication.shared.delegate as? AppDelegate
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            let value = appDelegate?.unleash.isEnabled(name: "testFeatureFlag")
-            if let val = value {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            let collectionViewFeature = appDelegate?.unleash.isEnabled(name: "collectionview")
+            if let val = collectionViewFeature {
                 self.collectionView.isHidden = !val
                 print("val: ", val)
             } else {
-                print("value: ", value)
+                print("value: ", collectionViewFeature ?? false)
             }
             
+            let value = appDelegate?.unleash.isEnabled(name: "testFeatureFlag")
+            if let val = value {
+                self.tableView.isHidden = !val
+                print("val: ", val)
+            } else {
+                print("value: ", value ?? false)
+            }
         }
         
         
