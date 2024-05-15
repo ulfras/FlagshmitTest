@@ -19,9 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             case .success(let flags):
                 for flag in flags {
                     let name = flag.feature.name
-                    let value = flag.value.stringValue
+                    let value = flag.value.description
                     let enabled = flag.enabled
-                    print(name, "= enabled:", enabled, "value:", value ?? "nil")
+                    print(name, "= enabled:", enabled, "value:", value)
                 }
             case .failure(let error):
                 print(error)
