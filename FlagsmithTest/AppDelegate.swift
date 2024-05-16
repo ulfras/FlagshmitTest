@@ -7,13 +7,14 @@
 
 import UIKit
 import FlagsmithClient
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        Flagsmith.shared.apiKey = "BSKcqbUQzBNnHusVocYf6d"
+        Flagsmith.shared.apiKey = "XCCDDagPNNtRtJiZB7STQ9"
         Flagsmith.shared.getFeatureFlags() { (result) in
             switch result {
             case .success(let flags):
@@ -27,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print(error)
             }
         }
+        
+        FirebaseApp.configure()
         
         return true
     }

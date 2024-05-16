@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		319224F82BF4948300881D44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 319224F72BF4948300881D44 /* GoogleService-Info.plist */; };
+		319224FA2BF495E400881D44 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319224F92BF495E400881D44 /* Firebase.swift */; };
+		319224FC2BF4995C00881D44 /* remote_config_defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 319224FB2BF4995C00881D44 /* remote_config_defaults.plist */; };
 		319D2DF82BF45D3300D4796B /* Unleash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319D2DF72BF45D3300D4796B /* Unleash.swift */; };
 		31AC8AD02BF1FA8600D46DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC8ACF2BF1FA8600D46DD0 /* AppDelegate.swift */; };
 		31AC8AD22BF1FA8600D46DD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AC8AD12BF1FA8600D46DD0 /* SceneDelegate.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		1859953EBA04483822B451CD /* Pods-FlagsmithTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagsmithTest.release.xcconfig"; path = "Target Support Files/Pods-FlagsmithTest/Pods-FlagsmithTest.release.xcconfig"; sourceTree = "<group>"; };
+		319224F72BF4948300881D44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		319224F92BF495E400881D44 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		319224FB2BF4995C00881D44 /* remote_config_defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = remote_config_defaults.plist; sourceTree = SOURCE_ROOT; };
 		319D2DF72BF45D3300D4796B /* Unleash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unleash.swift; sourceTree = "<group>"; };
 		31AC8ACC2BF1FA8600D46DD0 /* FlagsmithTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagsmithTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AC8ACF2BF1FA8600D46DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 		31AC8ACE2BF1FA8600D46DD0 /* FlagsmithTest */ = {
 			isa = PBXGroup;
 			children = (
+				319224FB2BF4995C00881D44 /* remote_config_defaults.plist */,
+				319224F72BF4948300881D44 /* GoogleService-Info.plist */,
+				319224F92BF495E400881D44 /* Firebase.swift */,
 				31AC8ACF2BF1FA8600D46DD0 /* AppDelegate.swift */,
 				31AC8AD12BF1FA8600D46DD0 /* SceneDelegate.swift */,
 				31AC8AD32BF1FA8600D46DD0 /* ViewController.swift */,
@@ -154,7 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319224FC2BF4995C00881D44 /* remote_config_defaults.plist in Resources */,
 				31AC8AD92BF1FA8700D46DD0 /* Assets.xcassets in Resources */,
+				319224F82BF4948300881D44 /* GoogleService-Info.plist in Resources */,
 				31AC8ADC2BF1FA8700D46DD0 /* Base in Resources */,
 				31AC8AD72BF1FA8600D46DD0 /* Base in Resources */,
 			);
@@ -209,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319224FA2BF495E400881D44 /* Firebase.swift in Sources */,
 				319D2DF82BF45D3300D4796B /* Unleash.swift in Sources */,
 				31AC8AD42BF1FA8600D46DD0 /* ViewController.swift in Sources */,
 				31AC8AD02BF1FA8600D46DD0 /* AppDelegate.swift in Sources */,

@@ -7,6 +7,10 @@ target 'FlagsmithTest' do
 
   pod 'FlagsmithClient'
   pod 'UnleashProxyClientSwift'
+  
+  # Add the Firebase pod for Google Analytics
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseRemoteConfig'
   # Pods for FlagsmithTest
 
   post_install do |installer|

@@ -14,45 +14,19 @@ class Unleash: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewWillAppear(_ animated: Bool) {
+        let unleash = UnleashClient(
+            unleashUrl: "https://app.unleash-hosted.com/demo/api/frontend",
+            clientKey: "UnleashTest:development.3e833d3cc281bd4bea647da02edc1fe55b524516c12404bb90b3bbe8")
+        unleash.start()
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            let unleash = UnleashClient(
-                unleashUrl: "https://app.unleash-hosted.com/demo/api/frontend",
-                clientKey: "UnleashTest:development.3e833d3cc281bd4bea647da02edc1fe55b524516c12404bb90b3bbe8")
             let collectionViewFeature = unleash.isEnabled(name: "collectionview")
-            if collectionViewFeature == true {
-                self.collectionView.isHidden = !collectionViewFeature
-                print("collectionViewFeature: ", collectionViewFeature)
-            } else {
-                print("value: ", collectionViewFeature)
-            }
+            self.collectionView.isHidden = !collectionViewFeature
+            print("collectionViewFeature: ", collectionViewFeature)
             
             let value = unleash.isEnabled(name: "testFeatureFlag")
-            if value == true {
-                self.tableView.isHidden = !value
-                print("value: ", value)
-            } else {
-                print("value: ", value)
-            }
+            self.tableView.isHidden = !value
+            print("tableViewFeature: ", value)
         }
-        
-        
-//        Flagsmith.shared.getFeatureFlags(forIdentity: "test") { result in
-//            switch result {
-//            case .success(let success):
-//                print("Success: ",result)
-//                for flag in success {
-//                    DispatchQueue.main.async {
-//                        if flag.feature.name == "collectionview" {
-//                            self.collectionView.isHidden = !flag.enabled
-//                        } else {
-//                            self.tableView.isHidden = !flag.enabled
-//                        }
-//                    }
-//                }
-//            case .failure(let failure):
-//                print("Feature Flags Error: ", failure)
-//            }
-//        }
     }
     
     override func viewDidLoad() {

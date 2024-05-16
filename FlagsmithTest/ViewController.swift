@@ -14,14 +14,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var button: UIButton!
     
+    var flagsmith = Flagsmith.shared
+    
     override func viewWillAppear(_ animated: Bool) {
-        Flagsmith.shared.getFeatureFlags { result in
+        flagsmith.getFeatureFlags { result in
             switch result {
             case .success(let success):
                 print("\nGet Feature Flags by Identity userTest: ", success)
                 for flag in success {
                     DispatchQueue.main.async {
-                        if flag.feature.name == "collectionview" {
+                        if flag.feature.name == "test_value" {
                             self.collectionView.isHidden = !flag.enabled
                         } else {
                             self.tableView.isHidden = !flag.enabled
@@ -36,10 +38,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.title = "Test Flagsmith"
-        title = "Flagsmith"
-        title = "Flagsmith"
-        
         button.layer.cornerRadius = 12
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.blue.cgColor
