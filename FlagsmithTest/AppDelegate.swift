@@ -13,24 +13,7 @@ import FirebaseCore
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        Flagsmith.shared.apiKey = "XCCDDagPNNtRtJiZB7STQ9"
-        Flagsmith.shared.getFeatureFlags() { (result) in
-            switch result {
-            case .success(let flags):
-                for flag in flags {
-                    let name = flag.feature.name
-                    let value = flag.value.description
-                    let enabled = flag.enabled
-                    print(name, "= enabled:", enabled, "value:", value)
-                }
-            case .failure(let error):
-                print(error)
-            }
-        }
-        
         FirebaseApp.configure()
-        
         return true
     }
 

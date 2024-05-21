@@ -16,14 +16,14 @@ class Unleash: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         let unleash = UnleashClient(
             unleashUrl: "https://app.unleash-hosted.com/demo/api/frontend",
-            clientKey: "UnleashTest:development.3e833d3cc281bd4bea647da02edc1fe55b524516c12404bb90b3bbe8")
+            clientKey: "UnleashTest:development.7a5e266ff4e5a9e71537ff04015b605374f0f5b0d8620295b983fde8")
         unleash.start()
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             let collectionViewFeature = unleash.isEnabled(name: "collectionview")
             self.collectionView.isHidden = !collectionViewFeature
             print("collectionViewFeature: ", collectionViewFeature)
             
-            let value = unleash.isEnabled(name: "testFeatureFlag")
+            let value = unleash.isEnabled(name: "tableview")
             self.tableView.isHidden = !value
             print("tableViewFeature: ", value)
         }

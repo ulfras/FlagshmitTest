@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     var flagsmith = Flagsmith.shared
     
     override func viewWillAppear(_ animated: Bool) {
+        let flagsmithURL = URL(string: "http://172.18.136.92:4018/api/v1/")
+        flagsmith.baseURL = flagsmithURL!
+        flagsmith.apiKey = "XCCDDagPNNtRtJiZB7STQ9"
         flagsmith.getFeatureFlags { result in
             switch result {
             case .success(let success):
@@ -24,6 +27,7 @@ class ViewController: UIViewController {
                 for flag in success {
                     DispatchQueue.main.async {
                         if flag.feature.name == "test_value" {
+                            print("Flag Value: ", flag.value.description)
                             self.collectionView.isHidden = !flag.enabled
                         } else {
                             self.tableView.isHidden = !flag.enabled
@@ -33,6 +37,11 @@ class ViewController: UIViewController {
             case .failure(let failure):
                 print("Feature Flags Error: ", failure)
             }
+        }
+        
+        
+        flagsmith.getFeatureFlags(forIdentity: "userTest1") { result in
+            print("\nResult: ", result)
         }
     }
     
